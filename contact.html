@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+</head>
+<body>
+    <h3>Contact Information</h3>
+    Email: <a href="mailto:igor.novais.b@gmail.com"> igor.novais.b@gmail.com</a>
+    <br>
+    Phone Number: (33) 98825-3539
+
+    <hr>
+
+    <form action="mailto:igor.novais.b@gmail.com" method="post" enctype="text/plain">
+        <table>
+            <tr>
+                <td><label>Your name:</label></td>
+                <td><input type="text" name="yourName" value=""></td>
+            </tr>
+            <tr>
+                <td>E-mail:</td>
+                <td><input type="email" name="yourEmail"></td>
+            </tr>
+            <tr>
+                <td><label>Subject:</label></td>
+                <td><input type="text" name="yourSubject"></td>
+            </tr>
+            <tr>
+                <td><label>Message:</label></td>
+                <td><textarea name="yourMessage" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <input type="submit" name="">
+            </tr>
+            <tr>
+                <td><label>File:</label></td>
+                <td><input type="file" id="fileInput"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
